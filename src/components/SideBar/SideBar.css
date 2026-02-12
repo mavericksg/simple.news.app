@@ -1,0 +1,35 @@
+.navbar-search {
+  flex-grow: 1; 
+  text-align: center; /* Centers the form content within the flex-grow space */
+  margin: 0 100px; /* Add some margin for spacing from logo/links */
+  display: flex !important;
+}
+
+.navbar-search input {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-size: 18px !important;
+  border-radius: 0 !important;
+  border-top-left-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+  padding: 11px !important;
+  margin-left: 20px !important;
+  margin-right: -9px !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.navbar-search button {
+  background-color: #005abb !important;
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
+  border-top-right-radius: 13px !important;
+  border-bottom-right-radius: 13px !important;
+  border-color: #005abb !important;
+  padding: 11px 20px !important;
+  margin-right: 20px !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
